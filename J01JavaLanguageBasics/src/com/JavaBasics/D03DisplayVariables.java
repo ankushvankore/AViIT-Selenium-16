@@ -9,5 +9,6 @@ public class D03DisplayVariables {
         System.out.println("Number: " + no1);
         System.out.println("PI    : " + pi);
         System.out.println("Name  : " + name);
+        System.out.println(name);
     }
 }
