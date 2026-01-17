@@ -2,9 +2,10 @@ package com.FunctionDemos;
 
 public class D03ReturningValueFromFunction {
     public static double calculateAreaOfCircle(int r){
-        double area = 3.142 * r * r;
+        //double area = 3.142 * r * r;
 
-        return area;
+        //return area;
+        return 3.142 * r * r;
     }
 
     public static void main(String[] args) {
