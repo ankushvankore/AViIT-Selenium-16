@@ -12,10 +12,10 @@ public class MyDate {
         System.out.println("Plain / Default Constructor Called");
     }
 
-    public MyDate(int d, String m, int y){
-        day = d;
-        month = m;
-        year = y;
+    public MyDate(int day, String month, int year){
+        this.day = day;
+        this.month = month;
+        this.year = year;
         System.out.println("Parameterized Constructor Called");
     }
 
@@ -38,6 +38,6 @@ public class MyDate {
 
     //Facilitator Method
     public void displayDate(){
-        System.out.println("Date: " + day + "-" + month + "-" + year);
+        System.out.println("Date: " + this.day + "-" + this.month + "-" + this.year);
     }
 }

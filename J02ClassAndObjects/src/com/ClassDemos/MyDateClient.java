@@ -24,5 +24,7 @@ public class MyDateClient {
         System.out.println("---------------------------");
         MyDate d7 = new MyDate(29, "Jan", 1979);
         d7.displayDate();
+
+        MyDate d8 = new MyDate(10, "Feb", 2004);
     }
 }
