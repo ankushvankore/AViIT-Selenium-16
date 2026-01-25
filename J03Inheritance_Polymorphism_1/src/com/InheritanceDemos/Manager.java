@@ -25,6 +25,7 @@ public class Manager extends Employee{
     }
 
     public double calculateSalary() {
+        System.out.println("Basic Salary: " + basicSalary);
         return super.calculateSalary() + calculateInsentive();
         //super --> Will call function of base class
     }

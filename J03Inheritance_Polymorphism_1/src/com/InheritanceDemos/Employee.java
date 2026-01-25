@@ -3,7 +3,7 @@ package com.InheritanceDemos;
 public class Employee {
     private int empId;
     private String empName;
-    private double basicSalary;
+    double basicSalary;
     private String gender;
     private String dept;
 
