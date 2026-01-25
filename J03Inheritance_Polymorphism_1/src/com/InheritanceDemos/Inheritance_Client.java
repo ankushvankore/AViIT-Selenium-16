@@ -1,0 +1,15 @@
+package com.InheritanceDemos;
+
+public class Inheritance_Client {
+    public static void main(String[] args) {
+        Manager m1 = new Manager();
+        m1.displayData();
+        System.out.println("Net Salary   : " + m1.calculateSalary());
+
+        System.out.println("--------------------------------");
+
+        Manager m2 = new Manager(123, "Pravin", 60000, "Male", "Automation", 50000, 0.05);
+        m2.displayData();
+        System.out.println("Net Salary   : " + m2.calculateSalary());
+    }
+}
