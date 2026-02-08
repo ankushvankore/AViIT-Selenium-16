@@ -1,38 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="67b853ab-5eac-411e-b563-7af99ed90ac0" name="Changes" comment="" />
+    <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D01LaunchingChrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D02LaunchingEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D03ReadTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D04GetCurrentUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Automation Concepts.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Core Java Basics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImportantLinks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session_1_OOPS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session_2_Java Basics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session_2_Java Basics.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session_3_Writing Java Class.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session_3_Writing Java Class.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session_4_Inheritance &amp; Polymorphism - Copy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session_5_Inheritance &amp; Polymorphism_II.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session_6_Exception_Handling.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Session_7_Collection Copy.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
   "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="37C1oBwSU38SKyZALkY2N33MgMV" />
+  <component name="ProjectId" id="39NHJrDtBK7hQ4QJSZmwatJebwJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.D01LaunchingChrome.executor": "Run",
+    "Application.D02LaunchingEdge.executor": "Run",
+    "Application.D03ReadTitle.executor": "Run",
+    "Application.D04GetCurrentUrl.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/For Selenium WebDriver/selenium-server-4.40.0.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.D04GetCurrentUrl">
+    <configuration name="D01LaunchingChrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D01LaunchingChrome" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D02LaunchingEdge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D02LaunchingEdge" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D03ReadTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D03ReadTitle" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D04GetCurrentUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D04GetCurrentUrl" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.D04GetCurrentUrl" />
+        <item itemvalue="Application.D03ReadTitle" />
+        <item itemvalue="Application.D02LaunchingEdge" />
+        <item itemvalue="Application.D01LaunchingChrome" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="67b853ab-5eac-411e-b563-7af99ed90ac0" name="Changes" comment="" />
-      <created>1766392494405</created>
+      <changelist id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="" />
+      <created>1770529543988</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1766392494405</updated>
+      <updated>1770529543988</updated>
     </task>
     <servers />
   </component>
