@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D05LocateByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D06LocateById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D07LocateByClassName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D08LocateByCssSelector_Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Assignments/A04EchotrakLogin_ClassName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D09LocateByCssSelectorSpecialCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D10LocateByLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D11LocateByPartialLinkText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
@@ -39,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.A04EchotrakLogin_ClassName.executor": "Run",
     "Application.D01LaunchingChrome.executor": "Run",
     "Application.D02LaunchingEdge.executor": "Run",
     "Application.D03ReadTitle.executor": "Run",
@@ -47,6 +48,10 @@
     "Application.D06LocateById.executor": "Run",
     "Application.D07LocateByClassName.executor": "Run",
     "Application.D08LocateByCssSelector_Attributes.executor": "Run",
+    "Application.D09LocateByCssSelectorSpecialCharacters.executor": "Run",
+    "Application.D10LocateByLinkText.executor": "Run",
+    "Application.D11LocateByPartialLinkText.executor": "Run",
+    "Application.Trial.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -56,9 +61,22 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.D08LocateByCssSelector_Attributes">
-    <configuration name="D04GetCurrentUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D04GetCurrentUrl" />
+  <component name="RunManager" selected="Application.D11LocateByPartialLinkText">
+    <configuration name="A04EchotrakLogin_ClassName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Assignments.A04EchotrakLogin_ClassName" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D09LocateByCssSelectorSpecialCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D09LocateByCssSelectorSpecialCharacters" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D05LocateByName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D05LocateByName" />
+    <configuration name="D10LocateByLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D10LocateByLinkText" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D06LocateById" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D06LocateById" />
+    <configuration name="D11LocateByPartialLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D11LocateByPartialLinkText" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -96,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D07LocateByClassName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D07LocateByClassName" />
+    <configuration name="Trial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Assignments.Trial" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D08LocateByCssSelector_Attributes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D08LocateByCssSelector_Attributes" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="PATTERN" value="com.Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D08LocateByCssSelector_Attributes" />
-        <item itemvalue="Application.D07LocateByClassName" />
-        <item itemvalue="Application.D06LocateById" />
-        <item itemvalue="Application.D05LocateByName" />
-        <item itemvalue="Application.D04GetCurrentUrl" />
+        <item itemvalue="Application.D11LocateByPartialLinkText" />
+        <item itemvalue="Application.D10LocateByLinkText" />
+        <item itemvalue="Application.D09LocateByCssSelectorSpecialCharacters" />
+        <item itemvalue="Application.A04EchotrakLogin_ClassName" />
+        <item itemvalue="Application.Trial" />
       </list>
     </recent_temporary>
   </component>
