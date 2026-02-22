@@ -1,0 +1,20 @@
+package com.WebDriverDemos;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class D13LocateByXPath_Relative {
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+
+        driver.get("https://practicetestautomation.com/practice-test-login/");
+
+        driver.findElement(By.xpath("//div[@id=\"form\"]/div/input")).sendKeys("student");
+        driver.findElement(By.xpath("//input[@id=\"password\"]")).sendKeys("Password123");
+        driver.findElement(By.xpath("//*[@id=\"submit\"]")).click();
+
+        driver.findElement(By.partialLinkText("Log")).click();
+    }
+}

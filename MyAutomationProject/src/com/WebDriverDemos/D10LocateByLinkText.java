@@ -13,7 +13,9 @@ public class D10LocateByLinkText {
         driver.get("https://register.rediff.com/register/register.php?FormName=user_details");
 
         WebElement signInLink = driver.findElement(By.linkText("Sign In"));
-        System.out.println(signInLink.getText());
+        System.out.println("Text on link : " + signInLink.getText());
+        //System.out.println("Value of href: " + signInLink.getAttribute("href"));
+        System.out.println("Value of href: " + signInLink.getDomAttribute("href"));
         signInLink.click();
     }
 }
