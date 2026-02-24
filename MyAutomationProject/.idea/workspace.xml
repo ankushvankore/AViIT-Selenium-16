@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D12LocateByXPath_Absolute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D13LocateByXPath_Relative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D10LocateByLinkText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D10LocateByLinkText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
-    </list>
+    <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,32 +29,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.A04EchotrakLogin_ClassName.executor": "Run",
-    "Application.D01LaunchingChrome.executor": "Run",
-    "Application.D02LaunchingEdge.executor": "Run",
-    "Application.D03ReadTitle.executor": "Run",
-    "Application.D04GetCurrentUrl.executor": "Run",
-    "Application.D05LocateByName.executor": "Run",
-    "Application.D06LocateById.executor": "Run",
-    "Application.D07LocateByClassName.executor": "Run",
-    "Application.D08LocateByCssSelector_Attributes.executor": "Run",
-    "Application.D09LocateByCssSelectorSpecialCharacters.executor": "Run",
-    "Application.D10LocateByLinkText.executor": "Run",
-    "Application.D11LocateByPartialLinkText.executor": "Run",
-    "Application.D12LocateByXPath_Absolute.executor": "Run",
-    "Application.D13LocateByXPath_Relative.executor": "Run",
-    "Application.Trial.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/For Selenium WebDriver/selenium-server-4.40.0.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A04EchotrakLogin_ClassName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D01LaunchingChrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D02LaunchingEdge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D03ReadTitle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D04GetCurrentUrl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D05LocateByName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D06LocateById.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D07LocateByClassName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D08LocateByCssSelector_Attributes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D09LocateByCssSelectorSpecialCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D10LocateByLinkText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D11LocateByPartialLinkText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D12LocateByXPath_Absolute.executor&quot;: &quot;Run&quot;,
+    &quot;Application.D13LocateByXPath_Relative.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Trial.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/For Selenium WebDriver/selenium-server-4.40.0.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.D13LocateByXPath_Relative">
     <configuration name="D09LocateByCssSelectorSpecialCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D09LocateByCssSelectorSpecialCharacters" />
