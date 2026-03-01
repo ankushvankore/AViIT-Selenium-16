@@ -17,7 +17,7 @@ public class D15LocateByTagName {
         List<WebElement>links =  driver.findElements(By.tagName("a"));
         System.out.println("Total Links: " + links.size());
         //System.out.println(links.get(0).getText());
-        /*for(int i = 0; i <links.size(); i++) {
+        /*for(int i = 0; i < links.size(); i++) {
             System.out.println(links.get(i).getText() + " => " + links.get(i).getAttribute("href"));
 
         }*/
