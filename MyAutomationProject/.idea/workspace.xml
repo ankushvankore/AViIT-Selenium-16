@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Assignments/A09EchoechoCheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Assignments/A13OrangeHRMLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D19HandlingListBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D20Synchronization_ThreadSleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D21Synchronization_ImplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Assignments/A14RedbusAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Assignments/A15BlingAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Assignments/RandomNumberDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D22ExplicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D23Synchronization_FluentWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D24HandlingTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D15LocateByTagName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D15LocateByTagName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,8 @@
     "Application.A04EchotrakLogin_ClassName.executor": "Run",
     "Application.A09EchoechoCheckBox.executor": "Run",
     "Application.A13OrangeHRMLogin.executor": "Run",
+    "Application.A14RedbusAssignment.executor": "Run",
+    "Application.A15BlingAssignment.executor": "Run",
     "Application.D01LaunchingChrome.executor": "Run",
     "Application.D02LaunchingEdge.executor": "Run",
     "Application.D03ReadTitle.executor": "Run",
@@ -64,6 +67,10 @@
     "Application.D19HandlingListBox.executor": "Run",
     "Application.D20Synchronization_ThreadSleep.executor": "Run",
     "Application.D21Synchronization_ImplicitWait.executor": "Run",
+    "Application.D22ExplicitWait.executor": "Run",
+    "Application.D23Synchronization_FluentWait.executor": "Run",
+    "Application.D24HandlingTable.executor": "Run",
+    "Application.RandomNumberDemo.executor": "Run",
     "Application.Trial.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -74,20 +81,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.D21Synchronization_ImplicitWait">
-    <configuration name="A09EchoechoCheckBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Assignments.A09EchoechoCheckBox" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.D24HandlingTable">
     <configuration name="A13OrangeHRMLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Assignments.A13OrangeHRMLogin" />
       <module name="MyAutomationProject" />
@@ -101,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D19HandlingListBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D19HandlingListBox" />
+    <configuration name="D12LocateByXPath_Absolute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D12LocateByXPath_Absolute" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D20Synchronization_ThreadSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D20Synchronization_ThreadSleep" />
+    <configuration name="D23Synchronization_FluentWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D23Synchronization_FluentWait" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -127,12 +121,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D21Synchronization_ImplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D21Synchronization_ImplicitWait" />
+    <configuration name="D24HandlingTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D24HandlingTable" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomNumberDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Assignments.RandomNumberDemo" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D21Synchronization_ImplicitWait" />
-        <item itemvalue="Application.D20Synchronization_ThreadSleep" />
+        <item itemvalue="Application.D24HandlingTable" />
+        <item itemvalue="Application.RandomNumberDemo" />
+        <item itemvalue="Application.D12LocateByXPath_Absolute" />
+        <item itemvalue="Application.D23Synchronization_FluentWait" />
         <item itemvalue="Application.A13OrangeHRMLogin" />
-        <item itemvalue="Application.A09EchoechoCheckBox" />
-        <item itemvalue="Application.D19HandlingListBox" />
       </list>
     </recent_temporary>
   </component>
