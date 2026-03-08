@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Assignments/TableHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D25HandlingDynamicWebTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D26HandlingPaginationTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D24HandlingTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D24HandlingTable.java" afterDir="false" />
-    </list>
+    <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
