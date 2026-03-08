@@ -24,7 +24,7 @@ public class D24HandlingTable {
                 <th>Company</th>
             </tr>
         </thead>
-        <tdata>     Table Data
+        <tbody>     Table Data
             <tr>
                 <td>1</td>            Table Data
                 <td>AViIT</td>
@@ -33,7 +33,7 @@ public class D24HandlingTable {
                 <td>2</td>
                 <td>Harshada Cashew</td>
             </tr>
-        </tdata>
+        </tbody>
     </table>
      */
     public static void main(String[] args) {

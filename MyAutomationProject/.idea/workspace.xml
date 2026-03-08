@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Assignments/A14RedbusAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Assignments/A15BlingAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Assignments/RandomNumberDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D22ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D23Synchronization_FluentWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D24HandlingTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Assignments/TableHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D25HandlingDynamicWebTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D26HandlingPaginationTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D24HandlingTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D24HandlingTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,10 @@
     "Application.D22ExplicitWait.executor": "Run",
     "Application.D23Synchronization_FluentWait.executor": "Run",
     "Application.D24HandlingTable.executor": "Run",
+    "Application.D25HandlingDynamicWebTable.executor": "Run",
+    "Application.D26HandlingPaginationTable.executor": "Run",
     "Application.RandomNumberDemo.executor": "Run",
+    "Application.TableHandling.executor": "Run",
     "Application.Trial.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -81,48 +81,35 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.D24HandlingTable">
-    <configuration name="A13OrangeHRMLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Assignments.A13OrangeHRMLogin" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D12LocateByXPath_Absolute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D12LocateByXPath_Absolute" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D23Synchronization_FluentWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D23Synchronization_FluentWait" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.D26HandlingPaginationTable">
     <configuration name="D24HandlingTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D24HandlingTable" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D25HandlingDynamicWebTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D25HandlingDynamicWebTable" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D26HandlingPaginationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D26HandlingPaginationTable" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -147,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TableHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Assignments.TableHandling" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D26HandlingPaginationTable" />
+        <item itemvalue="Application.D25HandlingDynamicWebTable" />
+        <item itemvalue="Application.TableHandling" />
         <item itemvalue="Application.D24HandlingTable" />
         <item itemvalue="Application.RandomNumberDemo" />
-        <item itemvalue="Application.D12LocateByXPath_Absolute" />
-        <item itemvalue="Application.D23Synchronization_FluentWait" />
-        <item itemvalue="Application.A13OrangeHRMLogin" />
       </list>
     </recent_temporary>
   </component>
