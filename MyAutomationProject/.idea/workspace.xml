@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../~$signments.docx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D27MultipleWindowHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D28DisablePopup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D29HandlingAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D30HeadlessBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D31HandlingFileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,78 +37,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.A04EchotrakLogin_ClassName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.A09EchoechoCheckBox.executor&quot;: &quot;Run&quot;,
-    &quot;Application.A13OrangeHRMLogin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.A14RedbusAssignment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.A15BlingAssignment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D01LaunchingChrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D02LaunchingEdge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D03ReadTitle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D04GetCurrentUrl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D05LocateByName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D06LocateById.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D07LocateByClassName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D08LocateByCssSelector_Attributes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D09LocateByCssSelectorSpecialCharacters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D10LocateByLinkText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D11LocateByPartialLinkText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D12LocateByXPath_Absolute.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D13LocateByXPath_Relative.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D14FindMultipleControls.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D15LocateByTagName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D16HandlingCheckbox.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D17HandlingRadioButton.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D18HandlingDropdownList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D19HandlingListBox.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D20Synchronization_ThreadSleep.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D21Synchronization_ImplicitWait.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D22ExplicitWait.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D23Synchronization_FluentWait.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D24HandlingTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D25HandlingDynamicWebTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D26HandlingPaginationTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RandomNumberDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TableHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Trial.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/For Selenium WebDriver/selenium-server-4.40.0.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.A04EchotrakLogin_ClassName.executor": "Run",
+    "Application.A09EchoechoCheckBox.executor": "Run",
+    "Application.A13OrangeHRMLogin.executor": "Run",
+    "Application.A14RedbusAssignment.executor": "Run",
+    "Application.A15BlingAssignment.executor": "Run",
+    "Application.D01LaunchingChrome.executor": "Run",
+    "Application.D02LaunchingEdge.executor": "Run",
+    "Application.D03ReadTitle.executor": "Run",
+    "Application.D04GetCurrentUrl.executor": "Run",
+    "Application.D05LocateByName.executor": "Run",
+    "Application.D06LocateById.executor": "Run",
+    "Application.D07LocateByClassName.executor": "Run",
+    "Application.D08LocateByCssSelector_Attributes.executor": "Run",
+    "Application.D09LocateByCssSelectorSpecialCharacters.executor": "Run",
+    "Application.D10LocateByLinkText.executor": "Run",
+    "Application.D11LocateByPartialLinkText.executor": "Run",
+    "Application.D12LocateByXPath_Absolute.executor": "Run",
+    "Application.D13LocateByXPath_Relative.executor": "Run",
+    "Application.D14FindMultipleControls.executor": "Run",
+    "Application.D15LocateByTagName.executor": "Run",
+    "Application.D16HandlingCheckbox.executor": "Run",
+    "Application.D17HandlingRadioButton.executor": "Run",
+    "Application.D18HandlingDropdownList.executor": "Run",
+    "Application.D19HandlingListBox.executor": "Run",
+    "Application.D20Synchronization_ThreadSleep.executor": "Run",
+    "Application.D21Synchronization_ImplicitWait.executor": "Run",
+    "Application.D22ExplicitWait.executor": "Run",
+    "Application.D23Synchronization_FluentWait.executor": "Run",
+    "Application.D24HandlingTable.executor": "Run",
+    "Application.D25HandlingDynamicWebTable.executor": "Run",
+    "Application.D26HandlingPaginationTable.executor": "Run",
+    "Application.D27MultipleWindowHandling.executor": "Run",
+    "Application.D28DisablePopup.executor": "Run",
+    "Application.D29HandlingAlerts.executor": "Run",
+    "Application.D31HandlingFileUpload.executor": "Run",
+    "Application.RandomNumberDemo.executor": "Run",
+    "Application.TableHandling.executor": "Run",
+    "Application.Trial.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/For Selenium WebDriver/selenium-server-4.40.0.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.D26HandlingPaginationTable">
-    <configuration name="D24HandlingTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D24HandlingTable" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D25HandlingDynamicWebTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D25HandlingDynamicWebTable" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.D31HandlingFileUpload">
     <configuration name="D26HandlingPaginationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D26HandlingPaginationTable" />
       <module name="MyAutomationProject" />
@@ -116,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomNumberDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Assignments.RandomNumberDemo" />
+    <configuration name="D27MultipleWindowHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D27MultipleWindowHandling" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Assignments.*" />
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +113,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Assignments.TableHandling" />
+    <configuration name="D28DisablePopup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D28DisablePopup" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Assignments.*" />
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D29HandlingAlerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D29HandlingAlerts" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D31HandlingFileUpload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D31HandlingFileUpload" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D31HandlingFileUpload" />
+        <item itemvalue="Application.D29HandlingAlerts" />
+        <item itemvalue="Application.D28DisablePopup" />
+        <item itemvalue="Application.D27MultipleWindowHandling" />
         <item itemvalue="Application.D26HandlingPaginationTable" />
-        <item itemvalue="Application.D25HandlingDynamicWebTable" />
-        <item itemvalue="Application.TableHandling" />
-        <item itemvalue="Application.D24HandlingTable" />
-        <item itemvalue="Application.RandomNumberDemo" />
       </list>
     </recent_temporary>
   </component>
