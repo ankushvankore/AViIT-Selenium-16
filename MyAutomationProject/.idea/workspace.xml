@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D27MultipleWindowHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D28DisablePopup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D29HandlingAlerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D30HeadlessBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D31HandlingFileUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D32HandlingMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D33MouseHover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D27MultipleWindowHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D27MultipleWindowHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D29HandlingAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D29HandlingAlerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D31HandlingFileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D31HandlingFileUpload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,10 @@
     "Application.D27MultipleWindowHandling.executor": "Run",
     "Application.D28DisablePopup.executor": "Run",
     "Application.D29HandlingAlerts.executor": "Run",
+    "Application.D30HeadlessBrowser.executor": "Run",
     "Application.D31HandlingFileUpload.executor": "Run",
+    "Application.D32HandlingMenu.executor": "Run",
+    "Application.D33MouseHover.executor": "Run",
     "Application.RandomNumberDemo.executor": "Run",
     "Application.TableHandling.executor": "Run",
     "Application.Trial.executor": "Run",
@@ -86,20 +90,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.D31HandlingFileUpload">
-    <configuration name="D26HandlingPaginationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D26HandlingPaginationTable" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.D33MouseHover">
     <configuration name="D27MultipleWindowHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D27MultipleWindowHandling" />
       <module name="MyAutomationProject" />
@@ -113,21 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D28DisablePopup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D28DisablePopup" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D29HandlingAlerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D29HandlingAlerts" />
+    <configuration name="D30HeadlessBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D30HeadlessBrowser" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -152,13 +130,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D32HandlingMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D32HandlingMenu" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D33MouseHover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D33MouseHover" />
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WebDriverDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.D33MouseHover" />
+        <item itemvalue="Application.D32HandlingMenu" />
         <item itemvalue="Application.D31HandlingFileUpload" />
-        <item itemvalue="Application.D29HandlingAlerts" />
-        <item itemvalue="Application.D28DisablePopup" />
         <item itemvalue="Application.D27MultipleWindowHandling" />
-        <item itemvalue="Application.D26HandlingPaginationTable" />
+        <item itemvalue="Application.D30HeadlessBrowser" />
       </list>
     </recent_temporary>
   </component>

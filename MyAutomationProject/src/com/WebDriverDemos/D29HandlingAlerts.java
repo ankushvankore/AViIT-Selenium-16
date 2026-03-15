@@ -26,7 +26,7 @@ public class D29HandlingAlerts {
         alt = driver.switchTo().alert();
         System.out.println(alt.getText());
         Thread.sleep(2000);
-        alt.accept();
+        alt.accept();       //Will click on Ok button
 
         driver.findElement(By.id("timerAlertButton")).click();
         //Thread.sleep(5000);
@@ -40,7 +40,7 @@ public class D29HandlingAlerts {
         alt = driver.switchTo().alert();
         System.out.println(alt.getText());
         Thread.sleep(2000);
-        alt.dismiss();
+        alt.dismiss();      //Will click on Cancel button
         System.out.println(driver.findElement(By.id("confirmResult")).getText());
 
         driver.findElement(By.id("promtButton")).click();
