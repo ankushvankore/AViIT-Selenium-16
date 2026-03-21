@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D32HandlingMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D33MouseHover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D34RightClick_DoubleClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D35DragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D36DragAndDropBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D37CalenderAutomation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D38Screenshot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D27MultipleWindowHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D27MultipleWindowHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D29HandlingAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D29HandlingAlerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D31HandlingFileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D31HandlingFileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D30HeadlessBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D30HeadlessBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D33MouseHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D33MouseHover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +79,11 @@
     "Application.D31HandlingFileUpload.executor": "Run",
     "Application.D32HandlingMenu.executor": "Run",
     "Application.D33MouseHover.executor": "Run",
+    "Application.D34RightClick_DoubleClick.executor": "Run",
+    "Application.D35DragAndDrop.executor": "Run",
+    "Application.D36DragAndDropBy.executor": "Run",
+    "Application.D37CalenderAutomation.executor": "Run",
+    "Application.D38Screenshot.executor": "Run",
     "Application.RandomNumberDemo.executor": "Run",
     "Application.TableHandling.executor": "Run",
     "Application.Trial.executor": "Run",
@@ -90,9 +96,9 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.D33MouseHover">
-    <configuration name="D27MultipleWindowHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D27MultipleWindowHandling" />
+  <component name="RunManager" selected="Application.D38Screenshot">
+    <configuration name="D34RightClick_DoubleClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D34RightClick_DoubleClick" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D30HeadlessBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D30HeadlessBrowser" />
+    <configuration name="D35DragAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D35DragAndDrop" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D31HandlingFileUpload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D31HandlingFileUpload" />
+    <configuration name="D36DragAndDropBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D36DragAndDropBy" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D32HandlingMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D32HandlingMenu" />
+    <configuration name="D37CalenderAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D37CalenderAutomation" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D33MouseHover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D33MouseHover" />
+    <configuration name="D38Screenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D38Screenshot" />
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D33MouseHover" />
-        <item itemvalue="Application.D32HandlingMenu" />
-        <item itemvalue="Application.D31HandlingFileUpload" />
-        <item itemvalue="Application.D27MultipleWindowHandling" />
-        <item itemvalue="Application.D30HeadlessBrowser" />
+        <item itemvalue="Application.D38Screenshot" />
+        <item itemvalue="Application.D37CalenderAutomation" />
+        <item itemvalue="Application.D36DragAndDropBy" />
+        <item itemvalue="Application.D35DragAndDrop" />
+        <item itemvalue="Application.D34RightClick_DoubleClick" />
       </list>
     </recent_temporary>
   </component>
