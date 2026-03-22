@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D34RightClick_DoubleClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D35DragAndDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D36DragAndDropBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D37CalenderAutomation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D38Screenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D01FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D02TestOnlineShopingApps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D03Before_After_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D04Before_After_Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D05SeleniumAssignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D30HeadlessBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D30HeadlessBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/WebDriverDemos/D33MouseHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D33MouseHover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAutomationProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyAutomationProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,67 +88,19 @@
     "Application.TableHandling.executor": "Run",
     "Application.Trial.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.D01FirstTest.testCalender.executor": "Run",
+    "TestNG.D02TestOnlineShopingApps.executor": "Run",
+    "TestNG.D03Before_After_Test.executor": "Run",
+    "TestNG.D04Before_After_Method.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/For Selenium WebDriver/selenium-server-4.40.0.jar",
+    "last_opened_file_path": "D:/For Selenium WebDriver/testng-7.12.0.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.D38Screenshot">
-    <configuration name="D34RightClick_DoubleClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D34RightClick_DoubleClick" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D35DragAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D35DragAndDrop" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D36DragAndDropBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D36DragAndDropBy" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D37CalenderAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D37CalenderAutomation" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.D04Before_After_Method">
     <configuration name="D38Screenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D38Screenshot" />
       <module name="MyAutomationProject" />
@@ -162,13 +114,110 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D01FirstTest.testCalender" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D01FirstTest" />
+      <option name="METHOD_NAME" value="testCalender" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D02TestOnlineShopingApps" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D02TestOnlineShopingApps" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D03Before_After_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D03Before_After_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D04Before_After_Method" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D04Before_After_Method" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <shortenClasspath name="NONE" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="test-output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.D38Screenshot" />
+      <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.D03Before_After_Test" />
+      <item itemvalue="TestNG.D04Before_After_Method" />
+      <item itemvalue="TestNG.D01FirstTest.testCalender" />
+      <item itemvalue="TestNG.D02TestOnlineShopingApps" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D04Before_After_Method" />
+        <item itemvalue="TestNG.D03Before_After_Test" />
+        <item itemvalue="TestNG.D02TestOnlineShopingApps" />
+        <item itemvalue="TestNG.D01FirstTest.testCalender" />
         <item itemvalue="Application.D38Screenshot" />
-        <item itemvalue="Application.D37CalenderAutomation" />
-        <item itemvalue="Application.D36DragAndDropBy" />
-        <item itemvalue="Application.D35DragAndDrop" />
-        <item itemvalue="Application.D34RightClick_DoubleClick" />
       </list>
     </recent_temporary>
   </component>
