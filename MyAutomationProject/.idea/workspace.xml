@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D01FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D02TestOnlineShopingApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D03Before_After_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D04Before_After_Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D05SeleniumAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignments.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignments.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Assignments/LoginToExpandTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D06DataDrivenTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D07AssertionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X01ExecuteSingleTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAutomationProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyAutomationProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D05SeleniumAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D05SeleniumAssignment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,29 +90,29 @@
     "TestNG.D02TestOnlineShopingApps.executor": "Run",
     "TestNG.D03Before_After_Test.executor": "Run",
     "TestNG.D04Before_After_Method.executor": "Run",
+    "TestNG.D05SeleniumAssignment (1).executor": "Run",
+    "TestNG.D05SeleniumAssignment.executor": "Run",
+    "TestNG.D06DataDrivenTesting (1).executor": "Run",
+    "TestNG.D06DataDrivenTesting (2).executor": "Run",
+    "TestNG.D06DataDrivenTesting.executor": "Run",
+    "TestNG.D06DataDrivenTesting.login.executor": "Run",
+    "TestNG.D07AssertionDemo.login.executor": "Run",
+    "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml.executor": "Run",
+    "TestNG.LoginToExpandTesting (1).executor": "Run",
+    "TestNG.LoginToExpandTesting (2).executor": "Run",
+    "TestNG.LoginToExpandTesting.executor": "Run",
+    "TestNG.LoginToExpandTesting.login1.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/For Selenium WebDriver/testng-7.12.0.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.D04Before_After_Method">
-    <configuration name="D38Screenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.WebDriverDemos.D38Screenshot" />
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.WebDriverDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D01FirstTest.testCalender" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml">
+    <configuration name="D05SeleniumAssignment (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +121,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D01FirstTest" />
-      <option name="METHOD_NAME" value="testCalender" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D05SeleniumAssignment" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D05SeleniumAssignment" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D05SeleniumAssignment" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D06DataDrivenTesting.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D06DataDrivenTesting" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D02TestOnlineShopingApps" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D07AssertionDemo.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -141,42 +173,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D02TestOnlineShopingApps" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D07AssertionDemo" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D03Before_After_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.TestNGDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D03Before_After_Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D04Before_After_Method" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.TestNGDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D04Before_After_Method" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/com/TestNGDemos/X01ExecuteSingleTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -204,20 +213,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.D38Screenshot" />
       <item itemvalue="TestNG.Unnamed" />
-      <item itemvalue="TestNG.D03Before_After_Test" />
-      <item itemvalue="TestNG.D04Before_After_Method" />
-      <item itemvalue="TestNG.D01FirstTest.testCalender" />
-      <item itemvalue="TestNG.D02TestOnlineShopingApps" />
+      <item itemvalue="TestNG.D05SeleniumAssignment" />
+      <item itemvalue="TestNG.D05SeleniumAssignment (1)" />
+      <item itemvalue="TestNG.D06DataDrivenTesting.login" />
+      <item itemvalue="TestNG.D07AssertionDemo.login" />
+      <item itemvalue="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D04Before_After_Method" />
-        <item itemvalue="TestNG.D03Before_After_Test" />
-        <item itemvalue="TestNG.D02TestOnlineShopingApps" />
-        <item itemvalue="TestNG.D01FirstTest.testCalender" />
-        <item itemvalue="Application.D38Screenshot" />
+        <item itemvalue="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml" />
+        <item itemvalue="TestNG.D05SeleniumAssignment (1)" />
+        <item itemvalue="TestNG.D05SeleniumAssignment" />
+        <item itemvalue="TestNG.D07AssertionDemo.login" />
+        <item itemvalue="TestNG.D06DataDrivenTesting.login" />
       </list>
     </recent_temporary>
   </component>
@@ -231,5 +240,16 @@
       <updated>1770529543988</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
