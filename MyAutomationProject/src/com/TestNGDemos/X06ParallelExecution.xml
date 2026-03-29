@@ -1,0 +1,8 @@
+<suite name = "Online Shopping Applications" parallel="methods" thread-count="2">
+    <test name = "Parallel Execution">
+        <classes>
+            <class name = "com.TestNGDemos.D02TestOnlineShopingApps">
+            </class>
+        </classes>
+    </test>
+</suite>

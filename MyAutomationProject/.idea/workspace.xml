@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Assignments/LoginToExpandTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D06DataDrivenTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D07AssertionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X01ExecuteSingleTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D08TypesOfAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D09Parameterization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D10KeywordDrivenFramework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/MyLocators.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X02ExecuteMultipleTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X03SkipSingleTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X04ExecuteClass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X05ExecuteGroup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X06ParallelExecution.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X07Parameters.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D05SeleniumAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D05SeleniumAssignment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
@@ -97,7 +103,20 @@
     "TestNG.D06DataDrivenTesting.executor": "Run",
     "TestNG.D06DataDrivenTesting.login.executor": "Run",
     "TestNG.D07AssertionDemo.login.executor": "Run",
+    "TestNG.D08TypesOfAssertion.executor": "Run",
+    "TestNG.D08TypesOfAssertion.test1.executor": "Run",
+    "TestNG.D08TypesOfAssertion.test2.executor": "Run",
+    "TestNG.D09Parameterization.executor": "Run",
+    "TestNG.D10KeywordDrivenFramework (1).executor": "Run",
+    "TestNG.D10KeywordDrivenFramework.automobileTest.executor": "Run",
+    "TestNG.D10KeywordDrivenFramework.executor": "Run",
     "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml.executor": "Run",
+    "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X02ExecuteMultipleTests.xml.executor": "Run",
+    "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X03SkipSingleTest.xml.executor": "Run",
+    "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X04ExecuteClass.xml.executor": "Run",
+    "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X05ExecuteGroup.xml.executor": "Run",
+    "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X06ParallelExecution.xml.executor": "Run",
+    "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X07Parameters.xml.executor": "Run",
     "TestNG.LoginToExpandTesting (1).executor": "Run",
     "TestNG.LoginToExpandTesting (2).executor": "Run",
     "TestNG.LoginToExpandTesting.executor": "Run",
@@ -111,8 +130,8 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml">
-    <configuration name="D05SeleniumAssignment (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D10KeywordDrivenFramework (1)">
+    <configuration name="D09Parameterization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +140,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D05SeleniumAssignment" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D09Parameterization" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D05SeleniumAssignment" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D10KeywordDrivenFramework (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +157,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D05SeleniumAssignment" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D10KeywordDrivenFramework" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -146,7 +165,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D06DataDrivenTesting.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D10KeywordDrivenFramework" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -155,16 +174,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D06DataDrivenTesting" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D10KeywordDrivenFramework" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D07AssertionDemo.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D10KeywordDrivenFramework.automobileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -173,8 +191,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D07AssertionDemo" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D10KeywordDrivenFramework" />
+      <option name="METHOD_NAME" value="automobileTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -182,9 +200,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X07Parameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/com/TestNGDemos/X01ExecuteSingleTest.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/com/TestNGDemos/X07Parameters.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -214,19 +232,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Unnamed" />
-      <item itemvalue="TestNG.D05SeleniumAssignment" />
-      <item itemvalue="TestNG.D05SeleniumAssignment (1)" />
-      <item itemvalue="TestNG.D06DataDrivenTesting.login" />
-      <item itemvalue="TestNG.D07AssertionDemo.login" />
-      <item itemvalue="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml" />
+      <item itemvalue="TestNG.D09Parameterization" />
+      <item itemvalue="TestNG.D10KeywordDrivenFramework" />
+      <item itemvalue="TestNG.D10KeywordDrivenFramework (1)" />
+      <item itemvalue="TestNG.D10KeywordDrivenFramework.automobileTest" />
+      <item itemvalue="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X07Parameters.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml" />
-        <item itemvalue="TestNG.D05SeleniumAssignment (1)" />
-        <item itemvalue="TestNG.D05SeleniumAssignment" />
-        <item itemvalue="TestNG.D07AssertionDemo.login" />
-        <item itemvalue="TestNG.D06DataDrivenTesting.login" />
+        <item itemvalue="TestNG.D10KeywordDrivenFramework (1)" />
+        <item itemvalue="TestNG.D10KeywordDrivenFramework.automobileTest" />
+        <item itemvalue="TestNG.D10KeywordDrivenFramework" />
+        <item itemvalue="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X07Parameters.xml" />
+        <item itemvalue="TestNG.D09Parameterization" />
       </list>
     </recent_temporary>
   </component>
