@@ -28,6 +28,7 @@ public class D10KeywordDrivenFramework {
     @Test
     public void automobileTest(){
         driver.findElement(By.linkText(prop.getProperty("autoLinkText"))).click();
+        //driver.findElement(By.linkText("Automobile")).click();
         Select makeDD = new Select(driver.findElement(By.id(prop.getProperty("makeID"))));
         makeDD.selectByIndex(3);
         driver.findElement(By.name(prop.getProperty("epName"))).sendKeys("1000");

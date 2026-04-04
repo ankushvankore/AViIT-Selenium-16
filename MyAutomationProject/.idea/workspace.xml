@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D08TypesOfAssertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D09Parameterization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D10KeywordDrivenFramework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/MyLocators.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X02ExecuteMultipleTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X03SkipSingleTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X04ExecuteClass.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X05ExecuteGroup.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X06ParallelExecution.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/X07Parameters.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D11POM_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/RediffUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/WebDriverDemos/D39RobotClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D05SeleniumAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D05SeleniumAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Notes.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D10KeywordDrivenFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D10KeywordDrivenFramework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +80,7 @@
     "Application.D36DragAndDropBy.executor": "Run",
     "Application.D37CalenderAutomation.executor": "Run",
     "Application.D38Screenshot.executor": "Run",
+    "Application.D39RobotClass.executor": "Run",
     "Application.RandomNumberDemo.executor": "Run",
     "Application.TableHandling.executor": "Run",
     "Application.Trial.executor": "Run",
@@ -110,6 +103,12 @@
     "TestNG.D10KeywordDrivenFramework (1).executor": "Run",
     "TestNG.D10KeywordDrivenFramework.automobileTest.executor": "Run",
     "TestNG.D10KeywordDrivenFramework.executor": "Run",
+    "TestNG.D11POM_Client (1).executor": "Run",
+    "TestNG.D11POM_Client (2).executor": "Run",
+    "TestNG.D11POM_Client (3).executor": "Run",
+    "TestNG.D11POM_Client.executor": "Run",
+    "TestNG.D11POM_Client.registration.executor": "Run",
+    "TestNG.D11POM_Client.registration2.executor": "Run",
     "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml.executor": "Run",
     "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X02ExecuteMultipleTests.xml.executor": "Run",
     "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X03SkipSingleTest.xml.executor": "Run",
@@ -130,8 +129,8 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.D10KeywordDrivenFramework (1)">
-    <configuration name="D09Parameterization" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D11POM_Client">
+    <configuration name="D11POM_Client (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +139,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D09Parameterization" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D11POM_Client" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D10KeywordDrivenFramework (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D11POM_Client (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -157,7 +156,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D10KeywordDrivenFramework" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D11POM_Client" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -165,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D10KeywordDrivenFramework" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D11POM_Client" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -174,7 +173,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D10KeywordDrivenFramework" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D11POM_Client" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -182,7 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D10KeywordDrivenFramework.automobileTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D11POM_Client.registration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -191,8 +190,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D10KeywordDrivenFramework" />
-      <option name="METHOD_NAME" value="automobileTest" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D11POM_Client" />
+      <option name="METHOD_NAME" value="registration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -200,10 +199,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X07Parameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D11POM_Client.registration2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/com/TestNGDemos/X07Parameters.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D11POM_Client" />
+      <option name="METHOD_NAME" value="registration2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -232,19 +239,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Unnamed" />
-      <item itemvalue="TestNG.D09Parameterization" />
-      <item itemvalue="TestNG.D10KeywordDrivenFramework" />
-      <item itemvalue="TestNG.D10KeywordDrivenFramework (1)" />
-      <item itemvalue="TestNG.D10KeywordDrivenFramework.automobileTest" />
-      <item itemvalue="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X07Parameters.xml" />
+      <item itemvalue="TestNG.D11POM_Client" />
+      <item itemvalue="TestNG.D11POM_Client (2)" />
+      <item itemvalue="TestNG.D11POM_Client (3)" />
+      <item itemvalue="TestNG.D11POM_Client.registration" />
+      <item itemvalue="TestNG.D11POM_Client.registration2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D10KeywordDrivenFramework (1)" />
-        <item itemvalue="TestNG.D10KeywordDrivenFramework.automobileTest" />
-        <item itemvalue="TestNG.D10KeywordDrivenFramework" />
-        <item itemvalue="TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X07Parameters.xml" />
-        <item itemvalue="TestNG.D09Parameterization" />
+        <item itemvalue="TestNG.D11POM_Client" />
+        <item itemvalue="TestNG.D11POM_Client.registration2" />
+        <item itemvalue="TestNG.D11POM_Client (3)" />
+        <item itemvalue="TestNG.D11POM_Client.registration" />
+        <item itemvalue="TestNG.D11POM_Client (2)" />
       </list>
     </recent_temporary>
   </component>
