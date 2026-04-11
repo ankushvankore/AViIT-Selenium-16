@@ -37,9 +37,9 @@ public class D13CreateFriendsData {
 
     @BeforeTest
     public void setup() throws FileNotFoundException {
-        file = new File("FriendsData.xlsx");
+        file = new File("ExcelFiles/FriendsData.xlsx");
         fos = new FileOutputStream(file);
-        wb = new XSSFWorkbook();
+        wb = new XSSFWorkbook();        //Creates new workbook
         sheet = wb.createSheet("My Sheet");
     }
 

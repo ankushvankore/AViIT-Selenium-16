@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_compress_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_5_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D12WritingToExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D13CreateFriendsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D14ReadingFromExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D15DataDrivenFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Driven Framework.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Driven Framework.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyAutomationProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyAutomationProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/RediffUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/RediffUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D12WritingToExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D12WritingToExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D13CreateFriendsData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D13CreateFriendsData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +113,15 @@
     "TestNG.D11POM_Client.registration2.executor": "Run",
     "TestNG.D12WritingToExcel (1).executor": "Run",
     "TestNG.D12WritingToExcel.executor": "Run",
+    "TestNG.D13CreateFriendsData (1).executor": "Run",
     "TestNG.D13CreateFriendsData.executor": "Run",
     "TestNG.D13CreateFriendsData.writeData.executor": "Run",
+    "TestNG.D14ReadingFromExcel.executor": "Run",
+    "TestNG.D14ReadingFromExcel.readAllData (1).executor": "Run",
+    "TestNG.D14ReadingFromExcel.readAllData.executor": "Run",
+    "TestNG.D14ReadingFromExcel.readTheData.executor": "Run",
+    "TestNG.D15DataDrivenFramework.executor": "Run",
+    "TestNG.D15DataDrivenFramework.login.executor": "Run",
     "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml.executor": "Run",
     "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X02ExecuteMultipleTests.xml.executor": "Run",
     "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X03SkipSingleTest.xml.executor": "Run",
@@ -137,8 +142,8 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.D13CreateFriendsData.writeData">
-    <configuration name="D11POM_Client" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D15DataDrivenFramework.login">
+    <configuration name="D14ReadingFromExcel.readAllData (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -147,7 +152,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D11POM_Client" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D14ReadingFromExcel" />
+      <option name="METHOD_NAME" value="readAllData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D14ReadingFromExcel.readAllData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D14ReadingFromExcel" />
+      <option name="METHOD_NAME" value="readAllData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D14ReadingFromExcel.readTheData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D14ReadingFromExcel" />
+      <option name="METHOD_NAME" value="readTheData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D15DataDrivenFramework" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D15DataDrivenFramework" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -155,7 +214,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D12WritingToExcel (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D15DataDrivenFramework.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -164,59 +223,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D12WritingToExcel" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D12WritingToExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.TestNGDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D12WritingToExcel" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D13CreateFriendsData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.TestNGDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D13CreateFriendsData" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D13CreateFriendsData.writeData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.TestNGDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D13CreateFriendsData" />
-      <option name="METHOD_NAME" value="writeData" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D15DataDrivenFramework" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -246,19 +254,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Unnamed" />
-      <item itemvalue="TestNG.D11POM_Client" />
-      <item itemvalue="TestNG.D12WritingToExcel" />
-      <item itemvalue="TestNG.D12WritingToExcel (1)" />
-      <item itemvalue="TestNG.D13CreateFriendsData" />
-      <item itemvalue="TestNG.D13CreateFriendsData.writeData" />
+      <item itemvalue="TestNG.D14ReadingFromExcel.readAllData" />
+      <item itemvalue="TestNG.D14ReadingFromExcel.readAllData (1)" />
+      <item itemvalue="TestNG.D14ReadingFromExcel.readTheData" />
+      <item itemvalue="TestNG.D15DataDrivenFramework" />
+      <item itemvalue="TestNG.D15DataDrivenFramework.login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D13CreateFriendsData.writeData" />
-        <item itemvalue="TestNG.D13CreateFriendsData" />
-        <item itemvalue="TestNG.D12WritingToExcel" />
-        <item itemvalue="TestNG.D12WritingToExcel (1)" />
-        <item itemvalue="TestNG.D11POM_Client" />
+        <item itemvalue="TestNG.D15DataDrivenFramework.login" />
+        <item itemvalue="TestNG.D15DataDrivenFramework" />
+        <item itemvalue="TestNG.D14ReadingFromExcel.readAllData (1)" />
+        <item itemvalue="TestNG.D14ReadingFromExcel.readAllData" />
+        <item itemvalue="TestNG.D14ReadingFromExcel.readTheData" />
       </list>
     </recent_temporary>
   </component>

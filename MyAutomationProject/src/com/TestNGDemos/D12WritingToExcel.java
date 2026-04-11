@@ -46,6 +46,5 @@ public class D12WritingToExcel {
     public void saveData() throws IOException {
         wb.write(fos);
         //The data from workbook will be physically stored to the file
-
     }
 }
