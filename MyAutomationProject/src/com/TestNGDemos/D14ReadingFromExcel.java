@@ -36,13 +36,19 @@ public class D14ReadingFromExcel {
         int rows = sheet.getPhysicalNumberOfRows();
         int cells = sheet.getRow(0).getPhysicalNumberOfCells();
 
-        for(int i = 0; i < rows; i++){
+        /*for(int i = 0; i < rows; i++){
             row = sheet.getRow(i);
             for(int j = 0; j < cells; j++){
                 cell = row.getCell(j);
                 System.out.println(cell.getStringCellValue());
             }
             System.out.println("---------------------------");
+        }*/
+        for(int i = 0; i < rows; i++){
+            for(int j = 0; j < cells; j++){
+                System.out.println(sheet.getRow(i).getCell(j).getStringCellValue());
+            }
+            System.out.println("-----------------------------");
         }
     }
 
@@ -52,7 +58,7 @@ public class D14ReadingFromExcel {
         fis = new FileInputStream(file);
         wb = new XSSFWorkbook(fis);
         //As we are not creating the new workbook, rather we are supposed to read the data from
-        //existing workbook, while creating wb object we need to pass fileinputstream
+        //existing workbook so, while creating wb object we need to pass fileinputstream
         sheet = wb.getSheet("Sheet1");
     }
 

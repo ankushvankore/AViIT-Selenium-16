@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D14ReadingFromExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D15DataDrivenFramework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Driven Framework.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Driven Framework.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D12WritingToExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D12WritingToExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D13CreateFriendsData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D13CreateFriendsData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcelFiles/LoginData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ExcelFiles/LoginData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D14ReadingFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D14ReadingFromExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D15DataDrivenFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D15DataDrivenFramework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +118,10 @@
     "TestNG.D14ReadingFromExcel.readAllData (1).executor": "Run",
     "TestNG.D14ReadingFromExcel.readAllData.executor": "Run",
     "TestNG.D14ReadingFromExcel.readTheData.executor": "Run",
+    "TestNG.D15DataDrivenFramework (1).executor": "Run",
+    "TestNG.D15DataDrivenFramework (2).executor": "Run",
+    "TestNG.D15DataDrivenFramework (3).executor": "Run",
+    "TestNG.D15DataDrivenFramework (4).executor": "Run",
     "TestNG.D15DataDrivenFramework.executor": "Run",
     "TestNG.D15DataDrivenFramework.login.executor": "Run",
     "TestNG.D:/AViIT/Demos/Selenium_16/MyAutomationProject/src/com/TestNGDemos/X01ExecuteSingleTest.xml.executor": "Run",
@@ -142,8 +144,8 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.D15DataDrivenFramework.login">
-    <configuration name="D14ReadingFromExcel.readAllData (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D15DataDrivenFramework (4)">
+    <configuration name="D15DataDrivenFramework (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -152,16 +154,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D14ReadingFromExcel" />
-      <option name="METHOD_NAME" value="readAllData" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D15DataDrivenFramework" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D14ReadingFromExcel.readAllData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D15DataDrivenFramework (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -170,16 +171,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D14ReadingFromExcel" />
-      <option name="METHOD_NAME" value="readAllData" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D15DataDrivenFramework" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D14ReadingFromExcel.readTheData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D15DataDrivenFramework (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationProject" />
       <extension name="coverage">
         <pattern>
@@ -188,9 +188,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D14ReadingFromExcel" />
-      <option name="METHOD_NAME" value="readTheData" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D15DataDrivenFramework" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D15DataDrivenFramework (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestNGDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
+      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D15DataDrivenFramework" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -208,24 +224,6 @@
       <option name="PACKAGE_NAME" value="com.TestNGDemos" />
       <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D15DataDrivenFramework" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D15DataDrivenFramework.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyAutomationProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.TestNGDemos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.TestNGDemos" />
-      <option name="MAIN_CLASS_NAME" value="com.TestNGDemos.D15DataDrivenFramework" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -254,19 +252,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Unnamed" />
-      <item itemvalue="TestNG.D14ReadingFromExcel.readAllData" />
-      <item itemvalue="TestNG.D14ReadingFromExcel.readAllData (1)" />
-      <item itemvalue="TestNG.D14ReadingFromExcel.readTheData" />
+      <item itemvalue="TestNG.D15DataDrivenFramework (1)" />
+      <item itemvalue="TestNG.D15DataDrivenFramework (2)" />
+      <item itemvalue="TestNG.D15DataDrivenFramework (3)" />
+      <item itemvalue="TestNG.D15DataDrivenFramework (4)" />
       <item itemvalue="TestNG.D15DataDrivenFramework" />
-      <item itemvalue="TestNG.D15DataDrivenFramework.login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D15DataDrivenFramework.login" />
+        <item itemvalue="TestNG.D15DataDrivenFramework (4)" />
         <item itemvalue="TestNG.D15DataDrivenFramework" />
-        <item itemvalue="TestNG.D14ReadingFromExcel.readAllData (1)" />
-        <item itemvalue="TestNG.D14ReadingFromExcel.readAllData" />
-        <item itemvalue="TestNG.D14ReadingFromExcel.readTheData" />
+        <item itemvalue="TestNG.D15DataDrivenFramework (3)" />
+        <item itemvalue="TestNG.D15DataDrivenFramework (1)" />
+        <item itemvalue="TestNG.D15DataDrivenFramework (2)" />
       </list>
     </recent_temporary>
   </component>
