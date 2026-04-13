@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="750839dd-9f78-4ca2-ab5b-c5ee29368ec6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcelFiles/LoginData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ExcelFiles/LoginData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D14ReadingFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D14ReadingFromExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TestNGDemos/D15DataDrivenFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TestNGDemos/D15DataDrivenFramework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
