@@ -40,9 +40,11 @@ public class D15DataDrivenFramework {
 
     @AfterMethod
     public void logout() throws InterruptedException {
+        String message;
         cell = sheet.getRow(index).getCell(2);
 
         if(driver.getCurrentUrl().contains("inventory")){
+            message = driver.findElement(By.xpath("//div[normalize-space()='Sauce Labs Backpack']")).getText();
             System.out.println("Test case pass");
             driver.findElement(By.id("react-burger-menu-btn")).click();
             driver.findElement(By.linkText("Logout")).click();
@@ -50,10 +52,13 @@ public class D15DataDrivenFramework {
             cell.setCellValue("Pass");
         }
         else {
+            message = driver.findElement(By.xpath("//*[@id=\"login_button_container\"]/div/form/div[3]/h3")).getText();
             System.out.println(driver.findElement(By.cssSelector("h3[data-test=\"error\"]")).getText());
 
             cell.setCellValue("Fail");
         }
+
+        sheet.getRow(index).getCell(3).setCellValue(message);
 
         Thread.sleep(2000);
         driver.navigate().refresh();
