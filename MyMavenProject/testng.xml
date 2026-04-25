@@ -1,0 +1,9 @@
+<suite name = "Maven Execution">
+    <test name = "Executing TestNG Class">
+        <classes>
+            <class name = "com.MyTests.D03ReadingFromExcel">
+
+            </class>
+        </classes>
+    </test>
+</suite>
