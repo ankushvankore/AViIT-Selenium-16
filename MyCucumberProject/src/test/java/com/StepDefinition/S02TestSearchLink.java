@@ -2,17 +2,16 @@ package com.StepDefinition;
 
 import io.cucumber.java.en.*;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class S01GoogleTitle {
+public class S02TestSearchLink {
     WebDriver driver;
-    String title;
-
-    @Given("Open Google")
-    public void open_google() {
+    @Given("Launch Google")
+    public void launch_google() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -20,13 +19,13 @@ public class S01GoogleTitle {
         driver.get("https://google.com");
     }
 
-    @When("Read the title")
-    public void read_the_title() {
-        title = driver.getTitle();
+    @When("Click on How Search Works Link")
+    public void click_on_how_search_works_link() {
+        driver.findElement(By.partialLinkText("How")).click();
     }
 
-    @Then("Title should be Google")
-    public void title_should_be_google() {
-        Assert.assertTrue(title.equals("Google"));
+    @Then("Search link should display")
+    public void search_link_should_display() {
+        Assert.assertTrue(driver.getCurrentUrl().contains("search"));
     }
 }
