@@ -15,5 +15,6 @@ public class R05GoogleLinks {
     Execute Multiple Scenarios:     tags = "@StoreLink or @SmokeTest"
     Skip Single Scenario:           tags = "not @SmokeTest"
     Skip Multiple Scenarios:        tags = "not @SmokeTest and not @GmailTest"
+    Execute All Scenarios:          tags = "@AllLinks"
      */
 }

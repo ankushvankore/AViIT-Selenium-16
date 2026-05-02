@@ -1,5 +1,7 @@
 package com.StepDefinition;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +11,17 @@ import java.time.Duration;
 
 public class S05GoogleLinks {
     WebDriver driver;
+
+   // @Before
+    public void setup(){
+        System.out.println("Before hook executed");
+    }
+
+    //@After
+    public void closeBrowser(){
+        driver.close();
+    }
+
     @Given("Open {string}")
     public void open(String url) {
         driver = new ChromeDriver();
